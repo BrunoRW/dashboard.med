@@ -1,0 +1,21 @@
+
+#tabelaImprovisada{
+    width: calc(100% - 4px);
+    border: 2px solid var(--fifth);
+  }
+  
+  #titlesTab, #tableContent{
+    display: flex;
+    padding: 10px;
+    background: var(--fourth);
+    color: var(--fifth);
+  }
+  
+  #tableContent{
+    background: none!important
+  }
+  
+  .titleTab{
+    width: 100%;
+    font-size: 13px;
+  }

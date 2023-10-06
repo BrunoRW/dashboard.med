@@ -1,0 +1,69 @@
+#header{
+  background: var(--extraColor);
+  padding: 15px 20px;
+  width: calc(100% - 40px);
+  box-shadow: 5px 5px 10px var(--second);
+  z-index: 1;
+}
+
+#innerHeader{
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+
+#headerLeft, #headerRight{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+#headerRight{
+  display: flex;
+  width: 100%;
+  align-items: flex-end;
+}
+
+
+/* HEADER LEFT  */
+
+#firstBlockLeft{
+  background: var(--third);
+  height: 20px;
+  width: 100%;
+  max-width: 200px;
+}
+
+#secondBlockLeft{
+  background: var(--fourth);
+  height: 15px;
+  width: 100%;
+  max-width: 650px;
+}
+
+/* HEADER RIGHT  */
+
+#profOut{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 45px;
+  flex-direction: column;
+  gap: 5px
+}
+
+#profile{
+  width: 100%;
+  aspect-ratio: 1;
+  background: var(--third);
+  border-radius: 100%;
+}
+
+#infoProf{
+  width: 100%;
+  max-width: 60px;
+  height: 15px;
+  background: var(--third);
+}

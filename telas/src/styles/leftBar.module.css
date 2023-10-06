@@ -1,0 +1,25 @@
+#leftBar{
+    width: calc(100% - 20px);
+    max-width: calc(60px - 20px);
+    padding: 10px;
+    background: var(--extraColor);
+    height: calc(100% - 20px);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background: red; */
+}
+
+.arrow{
+    width: 100%;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.block{
+    width: 100%;
+    aspect-ratio: 1;
+    background: var(--third);
+}

@@ -1,0 +1,61 @@
+
+
+/* LEFT CONTENT  */
+
+#leftCont{
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  overflow-y: scroll;
+  height: calc(100% - 40px);
+  padding: 20px;
+}
+
+.defSpace{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+
+.titleDash{
+  font-size: 18px;
+  color: gray;
+  font-weight: 200;
+}
+
+.cardsOut{
+  width: 100%;
+  display: flex;
+  gap: 15px;
+  height: 200px;
+  position: relative;
+}
+
+.doubleCards{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 15px;
+}
+
+.card{
+  width: 100%;
+  background: var(--moreC);
+  height: 100%;
+}
+
+/* RIGHT CONTENT  */
+#rightCont{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: calc(45% - 40px);
+  height: 100%;
+  background: var(--fourth);
+  padding: 20px;
+}
+
+

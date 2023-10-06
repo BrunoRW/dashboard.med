@@ -1,0 +1,25 @@
+
+#outSrc{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+}
+  
+  #srcBar{
+    width: calc(100% - 30px);
+    background: var(--fourth);
+    height: 30px;
+    padding: 5px 15px;
+  }
+  
+  #lupa{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50px;
+    background: #dddddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
